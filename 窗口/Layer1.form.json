@@ -1,0 +1,101 @@
+﻿{
+    "Class": "窗口程序集_Layer1",
+    "Comment": "",
+    "Controls": [
+        {
+            "Children": [],
+            "Comment": "",
+            "Cursor": "00000000",
+            "DataType": "窗口",
+            "Disable": false,
+            "ExtensionData": "060000000000000001000000FFFFFF00000000000100000001000000010000000000000000000000000000000100000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "Height": 250,
+            "Left": 50,
+            "Name": "",
+            "Tag": "",
+            "Top": 50,
+            "UnknownBeforeEvents": 0,
+            "UnknownBeforeExtensionData": "0000000000000000000000000000000000000000",
+            "UnknownBeforeLeft": 0,
+            "UnknownBeforeName": "0000000000000000000000000000000000000000",
+            "UnknownBeforeParent": 0,
+            "UnknownBeforeVisible": 0,
+            "Visible": true,
+            "Width": 380
+        },
+        {
+            "Children": [],
+            "Comment": "",
+            "Cursor": "00000000",
+            "DataType": "标签",
+            "Disable": false,
+            "ExtensionData": "0200000000000000080000000000000080808000FFFFFF008080800000000000FFFFFF00010000000000000080808000FFFFFF00808080000000000001000000000000003C000000F4FFFFFF000000000000000000000000BC0200000000008603020102CBCECCE5006F736F6674205961486569205549000000000000000000200000000000000006000000CEB4C3FCC3FB0000000000000000",
+            "Height": 24,
+            "Left": 8,
+            "Name": "标签1",
+            "Tag": "",
+            "Top": 8,
+            "UnknownBeforeEvents": 0,
+            "UnknownBeforeExtensionData": "0000000000000000000000000000000000000000",
+            "UnknownBeforeLeft": 0,
+            "UnknownBeforeName": "0000000000000000000000000000000000000000",
+            "UnknownBeforeParent": 0,
+            "UnknownBeforeVisible": 0,
+            "Visible": true,
+            "Width": 48
+        },
+        {
+            "Children": [
+                2
+            ],
+            "Comment": "",
+            "Cursor": "867F0000",
+            "DataType": "外形框",
+            "Disable": false,
+            "ExtensionData": "01000000000000FF0000000000000000010000000800000000000000FFFFFF00",
+            "Height": 64,
+            "Left": 72,
+            "Name": "外形框1",
+            "Tag": "",
+            "Top": 40,
+            "UnknownBeforeEvents": 0,
+            "UnknownBeforeExtensionData": "0000000000000000000000000000000000000000",
+            "UnknownBeforeLeft": 0,
+            "UnknownBeforeName": "0000000000000000000000000000000000000000",
+            "UnknownBeforeParent": 0,
+            "UnknownBeforeVisible": 0,
+            "Visible": false,
+            "Width": 64
+        }
+    ],
+    "Id": 1375810282,
+    "Menus": [
+        {
+            "DataType": "菜单",
+            "Disable": false,
+            "HotKey": 0,
+            "Level": 0,
+            "Name": "操作",
+            "Selected": false,
+            "Text": "操作",
+            "UnknownAfterClickEvent": "00000000000000000000000000000000",
+            "UnknownBeforeName": "0000000000000000000000000000000000000000",
+            "Visible": false
+        },
+        {
+            "DataType": "菜单",
+            "Disable": false,
+            "HotKey": 0,
+            "Level": 1,
+            "Name": "删除",
+            "Selected": false,
+            "Text": "删除",
+            "UnknownAfterClickEvent": "00000000000000000000000000000000",
+            "UnknownBeforeName": "0000000000000000000000000000000000000000",
+            "Visible": true
+        }
+    ],
+    "Name": "Layer1",
+    "UnknownAfterId": 39234960,
+    "UnknownBeforeClass": 1
+}

@@ -1,0 +1,41 @@
+﻿.版本 2
+
+.DLL命令 __SetWindowLongA, 整数型, "user32", "SetWindowLongA", 公开
+    .参数 hwnd, 整数型
+    .参数 nIndex, 整数型
+    .参数 dwNewLong, 整数型
+
+.DLL命令 __GetWindowLongA, 整数型, "user32", "GetWindowLongA", 公开
+    .参数 hwnd, 整数型
+    .参数 nIndex, 整数型
+
+.DLL命令 __ShowWindowAsync, , "user32", "ShowWindowAsync", 公开
+    .参数 hwnd, 整数型
+    .参数 可视性类型, 逻辑型
+
+.DLL命令 __IsWindowVisible, 逻辑型, "user32.dll", "IsWindowVisible", 公开
+    .参数 hwnd, 整数型
+
+.DLL命令 __MoveWindow, 整数型, "user32", "MoveWindow", 公开
+    .参数 hwnd, 整数型, , 欲移动窗口的句柄
+    .参数 x, 整数型, , 窗口新的左侧位置
+    .参数 y, 整数型, , 窗口新的顶部位置
+    .参数 nWidth, 整数型, , 窗口的新宽度
+    .参数 nHeight, 整数型, , 窗口的高宽度
+    .参数 bRepaint, 整数型, , 如窗口此时应重画，则设为TRUE（非零）。FALSE（零）则表明应用程序会自己决定是否重画窗口;
+
+.DLL命令 __GetWindowRect, 整数型, "user32", "GetWindowRect", 公开
+    .参数 窗口句柄, 整数型
+    .参数 矩形区域, 矩形
+
+.DLL命令 __ShowWindow, 逻辑型, "user32.dll", "ShowWindow", 公开
+    .参数 hwnd, 整数型
+    .参数 nCmdShow, 整数型, , 为窗口指定的一个命令。请用下述任何一个常数:0 隐藏取消激活  1 还原激活 2 最小化激活 3 最大化激活 4 还原 5 显示激活 6 最小化取消激活 7 最小化 9 还原激活
+
+.DLL命令 __CallWindowProcA, 整数型, "user32.dll", "CallWindowProcA", 公开, 呼叫窗口函数地址
+    .参数 前一窗口函数地址, 整数型
+    .参数 窗口句柄, 整数型
+    .参数 消息值, 整数型
+    .参数 附加参数1, 整数型
+    .参数 附加参数2, 整数型
+

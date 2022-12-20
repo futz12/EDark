@@ -1,0 +1,48 @@
+{
+    "Project Name": "Demo",
+    "Project Type": "SSD",
+    "Img Info": [
+        {
+            "Path": "./1.jpg",
+            "Rect": [
+                {
+                    "type": "cat",
+                    "x": 20,
+                    "y": 20,
+                    "w": 100,
+                    "h": 100
+                },
+                {
+                    "type": "cat",
+                    "x": 40,
+                    "y": 40,
+                    "w": 80,
+                    "h": 80
+                }
+
+            ]
+        }
+    ],
+    "Pre model": "./test.model",
+    "Pre bin": "./test.bin",
+    "cfg file": "./cfg/yolov7.cfg",
+    "weight file": "C:\\Test\\yolov7.weights",
+    "Type Info": [
+        {
+            "Name": "cat",
+            "Color": 16711680
+        },
+        {
+            "Name": "dog",
+            "Color": 255
+        },
+        {
+            "Name": "car",
+            "Color": 1048320
+        },
+        {
+            "Name": "person",
+            "Color": 1048575
+        }
+    ]
+}

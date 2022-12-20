@@ -1,0 +1,11 @@
+﻿.版本 2
+
+.全局变量 EProject, zyJsonDocument
+.全局变量 EProject_File, 文本型
+
+.全局变量 buf_组件2, 标签
+.全局变量 buf_组件, 外形框
+
+.全局变量 buf_OnDraw, 逻辑型
+
+.全局变量 top, 外形框
